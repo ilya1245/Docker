@@ -1,0 +1,1 @@
+FROM sgrio/tomee:jdk_8_plus_v7.0.3
