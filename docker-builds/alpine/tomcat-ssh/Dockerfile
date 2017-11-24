@@ -8,7 +8,10 @@ RUN apk --update add openssh \
 		&& rm -rf /var/cache/apk/* /tmp/*
 
 COPY entrypoint.sh /usr/local/bin/
+COPY wrapper_script.sh wrapper_script.sh
 
 EXPOSE 22
 
-ENTRYPOINT ["entrypoint.sh"]
+CMD ./wrapper_script.sh
+
+#ENTRYPOINT ["entrypoint.sh"]
