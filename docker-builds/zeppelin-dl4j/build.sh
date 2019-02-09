@@ -1,0 +1,1 @@
+docker build -t skymindops/zeppelin-dl4j .
