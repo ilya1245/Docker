@@ -1,1 +1,1 @@
-nohup docker run -p 8080:8080 apache/zeppelin &
+docker run -d --name zeppelin -p 122:22 -p 8080:8080 --env ROOT_PASSWORD=280373 apache/zeppelin
