@@ -1,1 +1,1 @@
-docker build -t apache/zeppelin .
+docker build -t imiflig/zeppelin .

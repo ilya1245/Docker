@@ -1,1 +1,1 @@
-docker run -d --name zeppelin -p 122:22 -p 8080:8080 --env ROOT_PASSWORD=280373 apache/zeppelin
+docker run -v /home/ilya/docker_share:/zeppelin/host_share -d --name zeppelin -p 8080:8080 --env ROOT_PASSWORD=280373 imiflig/zeppelin
