@@ -1,0 +1,1 @@
+docker run -v /home/ilya/docker_share/mysql:/mysql/host_share -d --name=mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=280373 mysql
