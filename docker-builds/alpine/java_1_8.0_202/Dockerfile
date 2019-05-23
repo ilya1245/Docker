@@ -1,6 +1,10 @@
 # AlpineLinux with a glibc-2.23-r1, Oracle Java jdk8 and unlimited JCE policy patch
 FROM anapsix/alpine-java
 
+WORKDIR /home/apps/spring_boot
+
+ADD weatherDataGatherer-0.1.0.jar weatherDataGatherer-0.1.0.jar
+
 # do all in one step
 RUN apk upgrade --update && \
     apk add --update curl unzip && \
