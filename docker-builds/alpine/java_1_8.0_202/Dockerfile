@@ -4,6 +4,7 @@ FROM anapsix/alpine-java
 WORKDIR /home/apps/spring_boot
 
 ADD weatherDataGatherer-0.1.0.jar weatherDataGatherer-0.1.0.jar
+ADD application.properties application.properties
 
 # do all in one step
 RUN apk upgrade --update && \
