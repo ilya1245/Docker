@@ -1,1 +1,1 @@
-docker build -t imiflig/alpine-java .
+docker build -t imiflig/alpine-java2 .

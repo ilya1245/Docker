@@ -1,0 +1,1 @@
+docker run -v /home/ilya/docker_share/flask/app:/app/app -d --name=my_flask -p 5000:5000 -e PORT="5000" imiflig/flask

@@ -1,2 +1,2 @@
 # works # docker run -it --name c_wdg -p 28080:8080 wdg java -jar weatherDataGatherer-0.1.0.jar
-docker run -d --name weather_dg -p 8090:8090 imiflig/alpine-java java -jar /home/apps/spring_boot/weatherDataGatherer-0.1.0.jar
+docker run -d --name weather_dg2 -p 8091:8091 imiflig/alpine-java2 java -jar /home/apps/spring_boot/weatherDataGatherer-0.1.0.jar
