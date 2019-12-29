@@ -1,9 +1,8 @@
-FROM tiangolo/meinheld-gunicorn:python3.7-alpine3.8
+FROM tiangolo/meinheld-gunicorn-flask:python3.7
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
-
-RUN pip install flask
-
-RUN mkdir -p /app/app
+RUN pip install numpy
+RUN pip install Pillow
+RUN pip install tensorflow
+RUN pip install keras
 
 COPY ./app /app
