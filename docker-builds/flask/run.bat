@@ -1,0 +1,1 @@
+docker run -v c:/docker_share/flask/app:/app/app --name=my_flask -p 5000:5000 -e PORT="5000" -e MODULE_NAME="app.predict_app" -e WORKERS_PER_CORE="1" imiflig/flask
